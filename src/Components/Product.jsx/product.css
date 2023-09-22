@@ -1,0 +1,38 @@
+.product{
+    min-width: 400px;
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 10px;
+   
+    
+}
+.btn{
+    outline: none;
+    background-color: red;
+    border: 1px solid red;
+    padding: 5px;
+    border-radius: 5px;
+    color:white;
+    cursor:pointer;
+}
+
+.product__img{
+    overflow: hidden;
+}
+
+.product:hover img{
+    transform: scale(1.2);transition: transform;
+    transition-duration: 1s;
+}
+
+.product__detail{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
